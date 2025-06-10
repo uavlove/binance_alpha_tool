@@ -4,6 +4,7 @@ import json
 import time
 import threading
 import requests
+
 from datetime import datetime, timezone
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit, QPushButton,
@@ -30,7 +31,7 @@ class BscScanApp(QWidget):
         self.get_bnb_price()
 
     def init_ui(self):
-        self.setWindowTitle("BSCScan Interface")
+        self.setWindowTitle("Binance alpha tool")
 
         self.web_edit = QLineEdit('https://api.bscscan.com/api')
         self.api_key_edit = QLineEdit('*' * len(self.api_key))
