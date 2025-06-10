@@ -1,0 +1,13 @@
+# qt
+*.exe
+*.pro.user
+
+
+# python
+__pycache__
+
+
+# private
+api_key.json
+
+
