@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![](pic\screenshoot_1.png)
+![](pic/screenshoot_1.png)
 
 
 
@@ -16,7 +16,7 @@
 
 2. if you do NOT have an account, you should sign up and then sign in, then get your api key
 
-   ![](pic\api_key.png)
+   ![](pic/api_key.png)
 
 ### get your wallet address
 
